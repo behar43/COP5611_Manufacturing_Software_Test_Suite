@@ -7,9 +7,9 @@ This repository contains the COP-5611 semester project, consisting of an ETS ser
 
 The project includes:
 
-- **ETS Software (`etssoftware`)** ¿ Server application that executes and manages the ETS server.
-- **ATP Test Software (`atptest`)** ¿ Python-based testing application providing a web interface for executing ESS and ATP tests.
-- **Utilities Library (`utilities`)** ¿ Shared library required by the ETS software.
+- **ETS Software (`etssoftware`)** Server application that executes and manages the ETS server.
+- **ATP Test Software (`atptest`)** Python-based testing application providing a web interface for executing ESS and ATP tests.
+- **Utilities Library (`utilities`)** Shared library required by the ETS software.
 
 ## 1. Building the Project
 
@@ -20,8 +20,8 @@ make clean
 make
 ```
 
-- `make clean` ¿ Removes previously generated build files.
-- `make` ¿ Compiles all project modules.
+- `make clean` Removes previously generated build files.
+- `make` Compiles all project modules.
 
 Alternatively, you can navigate into individual subdirectories and build each module separately using `make`.
 
@@ -109,9 +109,9 @@ gunicorn -w 11 -b 0.0.0.0:8484 atpsoftware:app
 
 Command-line options:
 
-- `-w 11` ¿ Starts 11 worker processes.
-- `-b 0.0.0.0:8484` ¿ Binds the server to port 8484 on all network interfaces.
-- `atpsoftware:app` ¿ Specifies the Python module and Flask application object.
+- `-w 11` Starts 11 worker processes.
+- `-b 0.0.0.0:8484` Binds the server to port 8484 on all network interfaces.
+- `atpsoftware:app` Specifies the Python module and Flask application object.
 
 A commonly used starting guideline for Gunicorn worker processes is:
 
@@ -145,9 +145,9 @@ waitress-serve --port=8484 --threads=31 atpsoftware:app
 
 Command-line options:
 
-- `--port=8484` ¿ Listens on port 8484.
-- `--threads=31` ¿ Configures 31 worker threads.
-- `atpsoftware:app` ¿ Specifies the Python module and Flask application object.
+- `--port=8484` Listens on port 8484.
+- `--threads=31` Configures 31 worker threads.
+- `atpsoftware:app` Specifies the Python module and Flask application object.
 
 For this project, the thread count was selected using:
 
