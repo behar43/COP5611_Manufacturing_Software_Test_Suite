@@ -1,6 +1,6 @@
 # COP5611_Manufacturing_Software_Test_Suite
 COP 5611 Semester Project inspired by real world development.
-This project was independently designed and implemented for COP 5611 Operating Systems at the University of Central Florida. It was inspired by concepts encountered during my professional software engineering experience and was developed without generative AI assistance
+This project was independently designed and implemented for COP 5611 Operating Systems at the University of Central Florida. It was inspired by concepts encountered during my professional software engineering experience and was developed without generative AI assistance.
 
 ## Overview
 
