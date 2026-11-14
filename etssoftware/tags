@@ -1,0 +1,161 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARGS	ATP_ARG.h	/^namespace ARGS$/;"	n
+ATP_ARG	ATP_ARG.cpp	/^ARGS::ATP_ARG::ATP_ARG()$/;"	f	class:ARGS::ATP_ARG
+ATP_ARG	ATP_ARG.cpp	/^ARGS::ATP_ARG::ATP_ARG(int tid, bool stopOnErr, std::string devname, int parm, int parm2)$/;"	f	class:ARGS::ATP_ARG
+ATP_ARG	ATP_ARG.cpp	/^ARGS::ATP_ARG::ATP_ARG(int tid, std::string devname, int parm, int parm2)$/;"	f	class:ARGS::ATP_ARG
+ATP_ARG	ATP_ARG.h	/^	class ATP_ARG $/;"	c	namespace:ARGS
+ATP_ARG_H	ATP_ARG.h	5;"	d
+ATP_LOG_REC	ATP_LOG_REC.cpp	/^ATP_LOG_REC::ATP_LOG_REC()$/;"	f	class:ATP_LOG_REC
+ATP_LOG_REC	ATP_LOG_REC.cpp	/^ATP_LOG_REC::ATP_LOG_REC(const ATP_LOG_REC &copy)$/;"	f	class:ATP_LOG_REC
+ATP_LOG_REC	ATP_LOG_REC.cpp	/^ATP_LOG_REC::ATP_LOG_REC(unsigned int mid, $/;"	f	class:ATP_LOG_REC
+ATP_LOG_REC	ATP_LOG_REC.h	/^class ATP_LOG_REC$/;"	c
+ATP_LOG_REC_H	ATP_LOG_REC.h	5;"	d
+ATP_PING_TEST_H	atpPingTest.h	5;"	d
+ATP_TEST_DEF	etss.h	/^	class ATP_TEST_DEF$/;"	c	namespace:ETSS
+ATP_TEST_MAX	defines.h	6;"	d
+BLIST	List.h	/^namespace BLIST$/;"	n
+BLIST	ListNode.h	/^namespace BLIST$/;"	n
+BLIST	Queue.h	/^namespace BLIST$/;"	n
+BT1553_MBUFCOUNT	httpd.h	29;"	d
+CCC	Makefile	/^CCC=g++ -I..\/utilities$/;"	m
+CCFLAGS	Makefile	/^CCFLAGS= $(DEBUG)$/;"	m
+CFLAGS	Makefile	/^CFLAGS= -c -Wall$/;"	m
+DEBUG	Makefile	/^DEBUG= -g -std=c++11$/;"	m
+DEFINES_H	defines.h	5;"	d
+ETS	httpd.h	/^namespace ETS$/;"	n
+ETS	url.h	/^namespace ETS$/;"	n
+ETSS	atpPingTest.h	/^namespace ETSS$/;"	n
+ETSS	etss.h	/^namespace ETSS$/;"	n
+ETSS_H	etss.h	5;"	d
+EXEC	Makefile	/^EXEC = etssoftware$/;"	m
+HTTPD_H	httpd.h	5;"	d
+ISspace	httpd.h	26;"	d
+LDFLAGS	Makefile	/^LDFLAGS= -lpthread -lutilities -L..\/utilities $/;"	m
+LISTND_H	ListNode.h	5;"	d
+LIST_H	List.h	5;"	d
+LWS	lightwebserver.h	/^namespace LWS$/;"	n
+LWS_H	lightwebserver.h	5;"	d
+List	List.cpp	/^template< class NODETYPE > BLIST::List< NODETYPE >::List()$/;"	f	class:BLIST::List
+List	List.h	/^	class List$/;"	c	namespace:BLIST
+ListNode	ListNode.cpp	/^template<class NODETYPE> BLIST::ListNode< NODETYPE >::ListNode(const NODETYPE &info)$/;"	f	class:BLIST::ListNode
+ListNode	ListNode.h	/^	class ListNode$/;"	c	namespace:BLIST
+OBJECTS	Makefile	/^OBJECTS=$(SOURCES:.cpp=.o)$/;"	m
+QUEUE_H	Queue.h	5;"	d
+Qmutex	Queue.h	/^			std::mutex Qmutex;$/;"	m	class:BLIST::Queue
+Queue	Queue.cpp	/^template< class NODETYPE > BLIST::Queue< NODETYPE >::Queue()$/;"	f	class:BLIST::Queue
+Queue	Queue.h	/^	class Queue : public List < NODETYPE >$/;"	c	namespace:BLIST
+SERVER_STRING	httpd.h	28;"	d
+SHMSZ	atpShmTest.cpp	18;"	d	file:
+SOURCES	Makefile	/^SOURCES=mainhttpd.cpp \\$/;"	m
+STCW	staticworkers.h	/^namespace STCW$/;"	n
+STCW_H	staticworkers.h	5;"	d
+URL_H	url.h	5;"	d
+VOIDFUNCPTR	etss.h	/^typedef void 		(*VOIDFUNCPTR) (ARGS::ATP_ARG); \/\/ ptr to function returning void $/;"	t
+accept_request	httpd.cpp	/^void ETS::vxhttpd::accept_request(int client)$/;"	f	class:ETS::vxhttpd
+atp	etss.cpp	/^void ETSS::etss::atp(unsigned int runMask, unsigned int stopMask)$/;"	f	class:ETSS::etss
+atpArg	etss.h	/^			ARGS::ATP_ARG atpArg[ATP_TEST_MAX];\/* arguments passed to each test *\/$/;"	m	class:ETSS::etss
+atpCanBus	atpCanBus.cpp	/^void ETSS::etss::atpCanBus(ARGS::ATP_ARG arg)$/;"	f	class:ETSS::etss
+atpPing	atpPingTest.cpp	/^void ETSS::etss::atpPing(ARGS::ATP_ARG arg)$/;"	f	class:ETSS::etss
+atpSemStatus	etss.cpp	/^std::mutex atpSemStatus;$/;"	v
+atpShm	atpShmTest.cpp	/^void ETSS::etss::atpShm(ARGS::ATP_ARG arg)$/;"	f	class:ETSS::etss
+atpStatus	etss.cpp	/^bool atpStatus[ATP_TEST_MAX];\/* test running status array *\/$/;"	v
+atpStatusCheck	etss.cpp	/^bool ETSS::etss::atpStatusCheck(unsigned int tid)$/;"	f	class:ETSS::etss
+atpStatusCheckStatic	etss.cpp	/^bool ETSS::etss::atpStatusCheckStatic(unsigned int tid)$/;"	f	class:ETSS::etss
+atpStatusSet	etss.cpp	/^void ETSS::etss::atpStatusSet(unsigned int tid, bool status)$/;"	f	class:ETSS::etss
+atpStatusSetStatic	etss.cpp	/^void ETSS::etss::atpStatusSetStatic(unsigned int tid, bool status)$/;"	f	class:ETSS::etss
+atpStop	etss.cpp	/^void ETSS::etss::atpStop()$/;"	f	class:ETSS::etss
+atpTest	etss.cpp	/^int ETSS::etss::atpTest(unsigned int tid, bool stopOnErr)$/;"	f	class:ETSS::etss
+atpTestDef	etss.h	/^			ATP_TEST_DEF atpTestDef[ATP_TEST_MAX] = $/;"	m	class:ETSS::etss
+atpTestStop	etss.cpp	/^bool ETSS::etss::atpTestStop(unsigned int tid)$/;"	f	class:ETSS::etss
+atp_ping_test	atpPingTest.h	/^	class atp_ping_test$/;"	c	namespace:ETSS
+bad_request	httpd.cpp	/^void ETS::vxhttpd::bad_request(int client)$/;"	f	class:ETS::vxhttpd
+cat	httpd.cpp	/^void ETS::vxhttpd::cat(int client, FILE *resource)$/;"	f	class:ETS::vxhttpd
+cnt	ATP_LOG_REC.h	/^		unsigned int cnt; \/\/loop counter$/;"	m	class:ATP_LOG_REC
+dat	ATP_LOG_REC.h	/^		unsigned int dat; \/\/extra info$/;"	m	class:ATP_LOG_REC
+data	ListNode.h	/^			NODETYPE data;                 \/\/ data$/;"	m	class:BLIST::ListNode
+dequeue	Queue.cpp	/^template< class NODETYPE > bool BLIST::Queue< NODETYPE >::dequeue(NODETYPE &value)$/;"	f	class:BLIST::Queue
+dev	ATP_LOG_REC.h	/^		unsigned int dev; \/\/device ID$/;"	m	class:ATP_LOG_REC
+devname	ATP_ARG.h	/^			std::string devname;$/;"	m	class:ARGS::ATP_ARG
+devname	etss.h	/^			std::string devname;$/;"	m	class:ETSS::ATP_TEST_DEF
+enqueue	Queue.cpp	/^template< class NODETYPE > void BLIST::Queue< NODETYPE >::enqueue(const NODETYPE &value)$/;"	f	class:BLIST::Queue
+err	ATP_LOG_REC.h	/^		unsigned int err; \/\/error code$/;"	m	class:ATP_LOG_REC
+error_die	httpd.cpp	/^void ETS::vxhttpd::error_die(const char *sc)$/;"	f	class:ETS::vxhttpd
+etsobj	lightwebserver.h	/^			ETSS::etss etsobj;$/;"	m	class:LWS::lightwebserver
+etss	etss.h	/^	class etss$/;"	c	namespace:ETSS
+extractparams	url.cpp	/^std::vector<std::string> ETS::url::extractparams(std::string rawparams)$/;"	f	class:ETS::url
+firstPtr	List.h	/^			ListNode< NODETYPE > *firstPtr; \/\/ptr to first node$/;"	m	class:BLIST::List
+getData	ListNode.cpp	/^template<class NODETYPE > NODETYPE BLIST::ListNode< NODETYPE >::getData() const$/;"	f	class:BLIST::ListNode
+getNewNode	List.cpp	/^template< class NODETYPE > BLIST::ListNode< NODETYPE > *BLIST::List< NODETYPE >::getNewNode(const NODETYPE &value)$/;"	f	class:BLIST::List
+get_bit	staticworkers.cpp	/^bool STCW::staticworkers::get_bit(unsigned int data, unsigned int bitNumber)$/;"	f	class:STCW::staticworkers
+get_devname	ATP_ARG.cpp	/^std::string ARGS::ATP_ARG::get_devname()$/;"	f	class:ARGS::ATP_ARG
+get_line	httpd.cpp	/^int ETS::vxhttpd::get_line(int sock, char *buf, int size)$/;"	f	class:ETS::vxhttpd
+get_parm	ATP_ARG.cpp	/^int ARGS::ATP_ARG::get_parm()$/;"	f	class:ARGS::ATP_ARG
+get_parm2	ATP_ARG.cpp	/^int ARGS::ATP_ARG::get_parm2()$/;"	f	class:ARGS::ATP_ARG
+get_stopOnErr	ATP_ARG.cpp	/^bool ARGS::ATP_ARG::get_stopOnErr()$/;"	f	class:ARGS::ATP_ARG
+get_tid	ATP_ARG.cpp	/^int ARGS::ATP_ARG::get_tid()$/;"	f	class:ARGS::ATP_ARG
+headers	httpd.cpp	/^void ETS::vxhttpd::headers(int client, std::string contentType, int contentLength)$/;"	f	class:ETS::vxhttpd
+host	url.cpp	/^std::string ETS::url::host()$/;"	f	class:ETS::url
+host_	url.h	/^			std::string host_; $/;"	m	class:ETS::url
+insertAtBack	List.cpp	/^template< class NODETYPE > void BLIST::List< NODETYPE >::insertAtBack(const NODETYPE &value)$/;"	f	class:BLIST::List
+insertAtFront	List.cpp	/^template< class NODETYPE > void BLIST::List< NODETYPE >::insertAtFront(const NODETYPE &value)$/;"	f	class:BLIST::List
+isEmpty	List.cpp	/^template< class NODETYPE > bool BLIST::List< NODETYPE >::isEmpty() const$/;"	f	class:BLIST::List
+lastPtr	List.h	/^			ListNode< NODETYPE > *lastPtr;	\/\/ptr to last node$/;"	m	class:BLIST::List
+lightwebserver	lightwebserver.cpp	/^LWS::lightwebserver::lightwebserver(ushort port_param)$/;"	f	class:LWS::lightwebserver
+lightwebserver	lightwebserver.h	/^	class lightwebserver : public ETS::vxhttpd$/;"	c	namespace:LWS
+m_stop	httpd.h	/^			std::atomic<bool> m_stop;	$/;"	m	class:ETS::vxhttpd
+main	mainhttpd.cpp	/^int main(void)$/;"	f
+mid	ATP_LOG_REC.h	/^		unsigned int mid; \/\/message id$/;"	m	class:ATP_LOG_REC
+name	etss.h	/^			std::string name;$/;"	m	class:ETSS::ATP_TEST_DEF
+nextPtr	ListNode.h	/^			ListNode< NODETYPE > *nextPtr; \/\/ next node in the list$/;"	m	class:BLIST::ListNode
+not_found	httpd.cpp	/^void ETS::vxhttpd::not_found(int client)$/;"	f	class:ETS::vxhttpd
+operator <<	ATP_LOG_REC.cpp	/^std::ostream& operator<< (std::ostream& stream, const ATP_LOG_REC &thelog)$/;"	f
+operator =	ATP_LOG_REC.cpp	/^const ATP_LOG_REC &ATP_LOG_REC::operator=(const ATP_LOG_REC &right)$/;"	f	class:ATP_LOG_REC
+parm	ATP_ARG.h	/^			int parm;$/;"	m	class:ARGS::ATP_ARG
+parm	etss.h	/^			int parm;$/;"	m	class:ETSS::ATP_TEST_DEF
+parm2	ATP_ARG.h	/^			int parm2;$/;"	m	class:ARGS::ATP_ARG
+parm2	etss.h	/^			int parm2;$/;"	m	class:ETSS::ATP_TEST_DEF
+parse	url.cpp	/^void ETS::url::parse(const std::string& url_s)$/;"	f	class:ETS::url
+path	url.cpp	/^std::string ETS::url::path()$/;"	f	class:ETS::url
+path_	url.h	/^			std::string path_; $/;"	m	class:ETS::url
+port	httpd.h	/^			ushort port;$/;"	m	class:ETS::vxhttpd
+print	List.cpp	/^template< class NODETYPE > void BLIST::List< NODETYPE >::print() const$/;"	f	class:BLIST::List
+protocol	url.cpp	/^std::string ETS::url::protocol()$/;"	f	class:ETS::url
+protocol_	url.h	/^			std::string protocol_;$/;"	m	class:ETS::url
+query	url.cpp	/^std::string ETS::url::query()$/;"	f	class:ETS::url
+queryArr	url.cpp	/^std::string ETS::url::queryArr()$/;"	f	class:ETS::url
+queryArr2	url.cpp	/^std::string ETS::url::queryArr2()$/;"	f	class:ETS::url
+queryArr2_	url.h	/^			std::string queryArr2_;$/;"	m	class:ETS::url
+queryArr_	url.h	/^			std::string queryArr_;$/;"	m	class:ETS::url
+query_	url.h	/^			std::string query_;$/;"	m	class:ETS::url
+removeFromBack	List.cpp	/^template< class NODETYPE > bool BLIST::List< NODETYPE >::removeFromBack(NODETYPE &value)$/;"	f	class:BLIST::List
+removeFromFront	List.cpp	/^template< class NODETYPE > bool BLIST::List< NODETYPE >::removeFromFront(NODETYPE &value)$/;"	f	class:BLIST::List
+routine	etss.h	/^			VOIDFUNCPTR routine;$/;"	m	class:ETSS::ATP_TEST_DEF
+run	httpd.cpp	/^void ETS::vxhttpd::run(void)$/;"	f	class:ETS::vxhttpd
+runMultiThread	httpd.cpp	/^void ETS::vxhttpd::runMultiThread(void)$/;"	f	class:ETS::vxhttpd
+sbcGpioStateSet	etss.cpp	/^bool sbcGpioStateSet(int bankNo, int pinNo, bool state)$/;"	f
+serve_file	httpd.cpp	/^void ETS::vxhttpd::serve_file(int client, const char *filename)$/;"	f	class:ETS::vxhttpd
+serve_file	lightwebserver.cpp	/^void LWS::lightwebserver::serve_file(int client, const char *filename)$/;"	f	class:LWS::lightwebserver
+serve_hardcoded	httpd.cpp	/^void ETS::vxhttpd::serve_hardcoded(int client)$/;"	f	class:ETS::vxhttpd
+serve_hardcoded	lightwebserver.cpp	/^void LWS::lightwebserver::serve_hardcoded(int client)$/;"	f	class:LWS::lightwebserver
+server_sock	httpd.h	/^			int server_sock;$/;"	m	class:ETS::vxhttpd
+startup	httpd.cpp	/^int ETS::vxhttpd::startup(u_short *port)$/;"	f	class:ETS::vxhttpd
+staticworkers	staticworkers.h	/^	class staticworkers$/;"	c	namespace:STCW
+stop	httpd.cpp	/^void ETS::vxhttpd::stop()$/;"	f	class:ETS::vxhttpd
+stopOnErr	ATP_ARG.h	/^			bool stopOnErr;$/;"	m	class:ARGS::ATP_ARG
+theQs	etss.cpp	/^BLIST::Queue<ATP_LOG_REC> theQs[ATP_TEST_MAX];$/;"	v
+theping	atpPingTest.cpp	/^int ETSS::atp_ping_test::theping(std::string destination)$/;"	f	class:ETSS::atp_ping_test
+tid	ATP_ARG.h	/^			int tid;$/;"	m	class:ARGS::ATP_ARG
+tid	ATP_LOG_REC.h	/^		unsigned int tid; \/\/test ID$/;"	m	class:ATP_LOG_REC
+to_bool	url.cpp	/^bool ETS::url::to_bool(std::string const& s) $/;"	f	class:ETS::url
+unimplemented	httpd.cpp	/^void ETS::vxhttpd::unimplemented(int client)$/;"	f	class:ETS::vxhttpd
+url	url.cpp	/^ETS::url::url(const std::string& url_s)$/;"	f	class:ETS::url
+url	url.h	/^	class url$/;"	c	namespace:ETS
+vxhttpd	httpd.cpp	/^ETS::vxhttpd::vxhttpd(ushort port_param)$/;"	f	class:ETS::vxhttpd
+vxhttpd	httpd.h	/^	class vxhttpd$/;"	c	namespace:ETS
+~List	List.cpp	/^template< class NODETYPE > BLIST::List< NODETYPE >::~List()$/;"	f	class:BLIST::List
+~Queue	Queue.cpp	/^template< class NODETYPE > BLIST::Queue< NODETYPE >::~Queue()$/;"	f	class:BLIST::Queue

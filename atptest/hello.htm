@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <HTML>
+        <HEAD>
+            <TITLE>
+                ATP Software Hello Screen
+            </TITLE>
+        </HEAD>
+        <BODY>
+            <H1>Hello Command <br></H1>
+            <P>hello:<br>
+            &nbsp &nbsp Takes in one optional parameter and the return in a JSON packet with the following form:<br>
+            &nbsp &nbsp {<br>
+            &nbsp &nbsp&nbsp &nbsp  "hello": "HELLO"<br>
+            &nbsp &nbsp }<br><br>
+
+            Execute the command
+            </P>
+            <form action="hello?name=name">
+                name:<br>
+            <input type="text" name="name" value="HELLO">
+                <br><br>
+            <input type="submit" value="Execute">
+            </form> 
+
+            <p>If you click "Execute", the form-data will execute the hello command.</p>
+        </BODY>
+    </HTML>

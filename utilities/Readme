@@ -1,0 +1,10 @@
+Location of deployed library
+(behar@masterbehar)-[/usr/lib]
+$ ls *utilities*
+libutilities.so
+
+When building for the first time, you must cp -p the library
+to your /usr/lib directory.
+
+eventually this needs to be automated
+
